@@ -1,0 +1,33 @@
+ body {
+     font-family: "Markazi Text", system-ui;
+     background-color: rgb(7, 112, 68);
+     color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 700px;
+     margin: 0px;
+     font-size: 30px;
+ }
+
+ button {
+     font-family: "Poppins", sans-serif;
+     background-color: rgb(119, 70, 11);
+     color: rgb(102, 13, 13);
+     font-size: 20px;
+ }
+ .passo {
+    display: none;
+ }
+ .passo.ativo {
+    display: block;
+ }
+ main {
+    text-align: center;
+    max-width: 90%;
+ }
+ img{
+     height: 500px;
+     width: 800px;
+    
+ }
